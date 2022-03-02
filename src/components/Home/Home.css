@@ -1,0 +1,191 @@
+.contenedor { 
+    color: rgb(142, 241, 245);
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    background-color: rgba(39, 39, 39, 0.411);
+    margin-top: 100px;
+  }
+  
+  .title {
+    width: 600px;
+    border-left: 3px solid rgb(218, 10, 10);
+    padding-left: 20px;
+  }
+  
+  .pelicula {
+    width: 100px;
+    height: 100px;
+    animation: move 15s alternate ease-in-out infinite;
+  }
+  
+  @keyframes move {
+    100% { transform: rotate(15deg); }
+    10% {transform: rotate(-15deg); }
+  }
+  
+  .linkhome, .linkhome:visited {
+    color: #18e;
+    text-decoration: none;
+  } 
+  
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .list-item {
+    margin: 0;
+    display: flex;
+    height: 50%;
+    width: auto;
+    align-items: center;
+  }
+  
+  .list-item a {
+    color: rgb(253, 13, 13);
+    height: 80%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+  }
+  
+  .list-item a:hover {
+    height: 110%;
+    width: 110%;
+  }
+  
+  .list-item a.active {
+    background-color: rgb(236, 214, 16);
+  }
+  
+  .div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .preloader {
+    color: white;
+    width: 70px;
+    height: 70px;
+    border: 10px solid #eee;
+    border-top: 10px solid #666;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* .contenedor { 
+    color: rgb(142, 241, 245);
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    background-color: rgba(39, 39, 39, 0.411);
+    margin-top: 100px;
+  }
+  
+  .title {
+    width: 600px;
+    border-left: 3px solid rgb(218, 10, 10);
+    padding-left: 20px;
+  }
+  
+  .pelicula {
+    width: 100px;
+    height: 100px;
+    animation: move 15s alternate ease-in-out infinite;
+  }
+  
+  @keyframes move {
+    100% { transform: rotate(15deg); }
+    10% {transform: rotate(-15deg); }
+  }
+  
+  .linkhome, .linkhome:visited {
+    color: #18e;
+    text-decoration: none;
+  } 
+  
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .list-item {
+    margin: 0;
+    display: flex;
+    height: 50%;
+    width: auto;
+    align-items: center;
+  }
+  
+  .list-item a {
+    color: rgb(253, 13, 13);
+    height: 80%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+  }
+  
+  .list-item a:hover {
+    height: 110%;
+    width: 110%;
+  }
+  
+  .list-item a.active {
+    background-color: rgb(236, 214, 16);
+  }
+  
+  .div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .preloader {
+    color: white;
+    width: 70px;
+    height: 70px;
+    border: 10px solid #eee;
+    border-top: 10px solid #666;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
